@@ -1,0 +1,189 @@
+/* Detta är en CSS fil för min webb / Någon som kör (Göteborg) - skapad utav Patrik Berggren */
+
+/* Färg kodnig snabb länk: http://www.rapidtables.com/web/color/RGB_Color.htm*/
+
+body{
+		background: url(img/wall13.jpg) no-repeat center center fixed; 
+		background-size: cover;
+}
+#wrapper{
+		width: 900px;
+		padding: 10px;
+		margin: 40px;	
+		background: #1F1F1F; opacity:.9;
+		color: white;
+		border-radius: 15px;
+		box-shadow: 0px 0px 10px 10px #231B8D
+}
+#header{
+	    width: 250px;
+		height: 100px;
+		float: left;
+		display: block;
+		margin: 10px;
+		overflow: hidden;
+		/*background-image: url(img/load.gif);
+		background-repeat: no-repeat;
+		background-position: center;*/
+}
+#header img{
+	    width: 250px;
+		height: 100px;		
+		display: none;
+}
+#logobar{
+		margin: 10px 10px 0 0;
+		float: right;
+}
+#meny{
+		float:right;
+		margin: 10px 10px 0px 0px;
+}
+#meny li{
+		display: inline;
+		list-style-type: none;
+}
+#meny li a {
+		margin: 0 5px 0 0;
+		padding: 5px 10px 5px 15px;
+		text-align: center;
+		font-size: 14px;
+		color: rgba(66,48,1,1);
+		border-radius: 5px;
+		border: 1px solid black;
+		background: none;
+		box-shadow:
+		inset 1px 0 0 0px black,
+		0 2px 10px #eee;
+}
+#content{
+		clear: both;
+		border: 1px solid #fff;
+	    width: 490px;
+		float: right;
+		margin: 10px;
+		padding: 10px;
+		border-radius: 10px;
+}
+article{
+		display: block;
+		width: 330px;
+		float: left;
+		margin: 10px 0px 10px 10px;
+}
+footer{
+		clear: both;
+		text-align: center;
+		margin: 10px 10px 0px 10px;
+		font-size: 75%;
+}
+#meny li a:hover {
+		cursor: pointer;
+		background: #262626;
+		color: #eee;
+}	
+#meny a:link, 
+#meny a:visited {
+		color: rgba(255,255,255,1);
+		text-decoration: none;
+}
+#meny a:active {
+		color: rgba(250,191,12,1);
+}
+#meny a#current {
+		background: rgba(85,137,48,1);
+}
+h3{
+		font-family: "Century", "Arial", "Times New Romans", "sans-serif", "Lucida", "Lucida Sans Unicode";
+}
+p{
+		font-family: "Century Gothic", "Arial", "Times New Romans", "sans-serif", "Lucida", "Lucida Sans Unicode";
+}
+.section{
+		margin: 0 0 10px 0;
+}
+.img{
+		border-radius: 10px;
+		box-shadow: 5px 5px 2px #eee
+}
+#wall6{
+		border-radius: 10px;
+}
+#wall4{
+		border-radius: 10px;
+}
+#wall5{
+		border-radius: 10px;
+}
+#h3{
+		clear:both;
+}
+[class*='pic-1']{
+		float: right;
+	}
+[class*='pic-2']{
+		clear: right;
+		float: left;
+		padding: 10px 0 0 0;
+	}
+[class*='pic-3']{
+		clear: left;
+		float: right;
+		padding: 10px 0 0 0;
+	}
+.pic-1-2{
+		padding: 35px 10px 29px 0;
+	}
+.pic-2-2{
+		padding: 90px 0 0 10px;
+	}
+.pic-3-2{
+		float: right;
+		padding: 100px 10px 0 0;
+	}
+#chat{
+		border: solid 1px;
+		width: 450px;
+		height: 400px;
+		background-color: #eee;
+		color: black;
+		overflow: scroll;
+}
+.username{
+		color: blue;
+		font-weight: bold;
+	}
+.bot{
+		color: green;
+		font-weight: bold;
+	}
+#ajaxlänk{
+		border: 1px solid;
+		border-radius: 25px;
+		color: white;
+		text-decoration: none;
+		padding: 3px 10px 1px 10px;
+}
+#canvasSVG{
+		border: 1px solid;
+		border-radius: 25px;
+		color: white;
+		text-decoration: none;
+		padding: 3px 10px 1px 10px;
+}
+#canvas2{
+		border: 5px solid;
+		border-color: grey;
+		border-radius: 10px;
+		background-color: rgb(32,32,32);
+}
+#canvas3{
+
+		border: 5px solid;
+		border-color: grey;
+		border-radius: 10px;
+		background-color: black;
+}
+#SVG3{
+		background-color: red;
+}

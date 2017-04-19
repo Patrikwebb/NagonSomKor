@@ -1,0 +1,314 @@
+/* Detta är en CSS fil med @media quries till min webb 
+/ 
+Någon som kör (Göteborg) - skapad utav Patrik Berggren */
+
+/* Mobile in portrait view (Smaller phones) */
+@media (min-width: 1px) and (max-width: 479px) {
+#canvasSVG{
+	display: none;
+}
+#ajaxlänk{
+	display: none;
+}
+#wrapper{
+		/*width: 440px;*/
+		width: 95%;
+		margin: 0px;
+	}
+#header{ 
+	    width: 100%;
+		display: block;
+		text-align: center;
+}	
+#logobar{
+		width: 25%;
+		margin: 10px 0 0 0;
+		padding: 0px;
+		float: right;
+	}
+#content{
+		/*width: 420px;*/
+		width: 95%;
+		margin: 5px 0 0 0;
+	}
+#meny{
+		width: 75%;
+		margin: 0px;
+		padding: 0;
+	}
+#meny li{
+		margin: 10px;
+		display: list-item;
+}
+#meny li a {
+		margin: 6px;
+		padding: 5px 45px 5px 10px;
+		font-size: 12px;
+		border-radius: 0px 0px;
+		border: 0px solid #eee;
+		background: none;
+		box-shadow:
+		inset 2px 0 0 1px black,
+		0 2px 10px #eee;		
+	}
+article{
+		text-align: center;
+		display: inline-block;
+		/*width: 450px;*/
+		width: 100%;
+		margin: 15px 0 0 15px;
+}
+.section{
+		display: inline-block;
+		margin: 0 10px 10px 10px;
+	}	
+.img{
+		width: 190px;
+	}
+}
+
+/* Mobile in landscape view (Bigger phones) and smaller tablets(Kidle fire HD 7") v.1*/
+@media (min-width: 480px) and (max-width: 574px) {
+#canvasSVG{
+	display: none;
+}
+#ajaxlänk{
+	display: none;
+}
+#wrapper{
+		/*width: 440px;*/
+		width: 95%;
+		margin: 10px;
+	}
+#header{ 
+	    width: 45%;
+		display: block;
+}
+#logga{
+		width: 95%;
+		margin: 0px;
+		padding: 0px;
+		float: left;
+}	
+#logobar{
+		width: 45%;
+		margin: 60px 0 0 0;
+		padding: 0px;
+		float: right;
+	}
+#content{
+		/*width: 420px;*/
+		width: 95%;
+		margin: 5px 0 0 0;
+	}
+#meny{
+		text-align: center;
+		width: 100%;
+		margin: 0px;
+		padding: 0;
+	}
+#meny li a {
+		margin: 6px;
+		padding: 5px;
+		font-size: 10px;
+	}
+article{
+		text-align: center;
+		display: inline-block;
+		/*width: 450px;*/
+		width: 100%;
+		margin: 15px 0 0 15px;
+}
+.section{
+		display: inline-block;
+		margin: 0 10px 10px 10px;
+	}	
+.img{
+		width: 190px;
+	}
+}
+/* Mobile in landscape view (Bigger phones) and smaller tablets v.2*/
+@media (min-width: 575px) and (max-width: 767px) {
+#canvasSVG{
+	display: none;
+}
+#ajaxlänk{
+	display: none;
+}
+#wrapper{
+		/*width: 440px;*/
+		width: 95%;
+		margin: 10px;
+	}
+#header{ 
+	    width: 220px;
+		display: block;
+}
+#logga{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		float: left;
+}	
+#logobar{
+		margin: 60px 0px 0 0;
+		padding: 0px 0px;
+		float: right;
+	}
+#content{
+		/*width: 420px;*/
+		width: 95%;
+		margin: 5px 0 0 0;
+	}
+#meny{
+		text-align: center;
+		width: 100%;
+		margin: 0px;
+		padding: 0;
+	}
+#meny li a {
+		margin: 5px;
+		padding: 5px 10px;
+		font-size: 12px;
+	}
+article{
+		text-align: center;
+		display: inline-block;
+		/*width: 450px;*/
+		width: 100%;
+		margin: 15px 0 0 15px;
+}
+.section{
+		display: inline-block;
+		margin: 0 10px 10px 10px;
+	}	
+.img{
+		width: 190px;
+	}
+[class*='pic-1']{
+		float: right;
+	}
+[class*='pic-2']{
+		clear: right;
+		float: left;
+		padding: 10px 0 0 0;
+	}
+[class*='pic-3']{
+		clear: left;
+		float: right;
+		padding: 10px 0 0 0;
+	}
+.pic-1-2{
+		padding: 35px 10px 29px 0;
+	}
+.pic-2-2{
+		padding: 90px 0 0 10px;
+	}
+.pic-3-2{
+		float: right;
+		padding: 100px 10px 0 0;
+	}
+}
+/* Tablets, (Android, Ipad, etc) */
+@media (min-width: 768px) and (max-width: 999px) {
+
+#canvasSVG{
+	display: none;
+}
+#ajaxlänk{
+	display: none;
+}
+#wrapper{
+		/*width: 640px;*/
+		width: 90%;
+}
+#logga{
+		width: 100%;
+}	
+#logobar{
+		margin: 70px 0 0 0;
+	}
+#content{
+		/*width: 600px;*/
+		width: 95%;
+		margin: 10px;
+		padding: 10px;
+	}
+article{
+		text-align: center;
+		display: inline-block;
+		/*width: 620px;*/
+		width: 100%;
+		margin: 15px 0 0 15px;
+}
+.section{
+		display: inline-block;
+		margin: 0 10px 10px 10px;
+}	
+.img{
+		width: 280px;
+	}
+#meny{
+		text-align: center;
+		clear: both;
+		/*width: 620px;*/
+		width: 100%;
+}
+#meny li a {
+		clear: both;
+		margin: 0px 5px ;
+		padding: 8px 15px;
+		text-align: center;
+		font-size: 14px;
+	}
+[class*='pic-1']{
+		float: right;
+	}
+[class*='pic-2']{
+		clear: right;
+		float: left;
+		padding: 10px 0 0 0;
+	}
+[class*='pic-3']{
+		clear: left;
+		float: right;
+		padding: 10px 0 0 0;
+	}
+.pic-1-2{
+		padding: 35px 10px 29px 0;
+	}
+.pic-2-2{
+		padding: 90px 0 0 10px;
+	}
+.pic-3-2{
+		float: right;
+		padding: 100px 10px 0 0;
+	}
+}
+
+/* Laptop and desktop browsing 
+@media (min-width: 1000px) and (max-width: 1199px) */
+
+
+
+/* Larger than Desktop HD 
+@media (min-width: 1200px) */
+
+
+
+/*
+ 
+ -- % Format till standard --
+
+#logga{
+		width: 100%;
+}	
+#content{
+		width: 55%;
+	}
+.img{
+		width: 103%;
+	}
+
+*/
+
